@@ -1,0 +1,29 @@
+dialog[open]{
+    /* display: block; */
+    scale: 1;
+    transition:  0.5s ease-in-out;
+    opacity: 1;
+    @starting-style{
+        scale: 0.8;
+        opacity: 0;
+    }
+}
+dialog{
+    width: 400px;
+    height: 400px;
+    margin:auto;
+    scale: 0.8;
+    opacity: 0;
+    transition: 0.5s ease-in-out allow-discrete;
+}
+
+*{
+    transition: 0.3s ease-in-out;
+    /* opacity: 1;
+    @starting-style{
+        opacity: 0;
+    } */
+}
+/* *{
+    transition: 0.3s ease-in-out allow-discrete;
+} */

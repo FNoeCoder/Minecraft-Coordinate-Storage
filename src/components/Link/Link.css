@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+a.a-nav{
+    display: block;
+    width: 200px;
+    height: 40px;
+    color: rgb(235, 235, 235);
+    background-color: #007bff;
+    text-align: center;
+    /* line-height: 30px; */
+    text-decoration: none;
+    /* border-radius: 5px; */
+    /* margin: 10px; */
+    /* padding-top: 3px; */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* font-weight: bold; */
+    font-size: 1.1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+a.a-nav:hover{
+    background-color: #0056b3;
+}
+a.a-nav.minecraft{
+    background-color: #008944; 
+    border-left: 2px solid #0c6e3d;
+    border-top: 2px solid #29d943;
+    border-right: 2px solid #0c6e3d;
+    border-bottom: 2px solid #064a29;
+    font-family: 'Minecraft', sans-serif;
+}
+a.a-nav.minecraft:hover{
+    background-color: #006f3f;
+    color : white;
+}
+
+a.a-nav.minecraft-interface{
+    background-color: #525252;
+    border-left: 2px solid #4a4a4a;
+    border-top: 2px solid #777777;
+    border-right: 2px solid #4a4a4a;
+    border-bottom: 3px solid #373737;
+    font-family: 'Minecraft', sans-serif;
+}
+a.a-nav.minecraft-interface:hover{
+    background-color: #4a4a4a;
+    color : white;
+}
