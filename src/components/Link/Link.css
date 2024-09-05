@@ -40,6 +40,14 @@ a.a-nav.minecraft:hover{
     background-color: #006f3f;
     color : white;
 }
+a.a-nav.minecraft.active{
+    background-color: #006f3f;
+    color : white;
+}
+a.a-nav.minecraft.active:hover{
+    background-color: #006f3f;
+    color : white;
+}
 
 a.a-nav.minecraft-interface{
     background-color: #525252;
@@ -50,6 +58,14 @@ a.a-nav.minecraft-interface{
     font-family: 'Minecraft', sans-serif;
 }
 a.a-nav.minecraft-interface:hover{
+    background-color: #4a4a4a;
+    color : white;
+}
+a.a-nav.minecraft-interface.active{
+    background-color: #4a4a4a;
+    color : white;
+}
+a.a-nav.minecraft-interface.active:hover{
     background-color: #4a4a4a;
     color : white;
 }
